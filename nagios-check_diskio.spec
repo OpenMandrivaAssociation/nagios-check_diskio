@@ -8,7 +8,7 @@ Version:   %{version}
 Release:   %{release}
 Summary:   Nagios plugin to monitor the amount of disk I/O
 License:   GPL
-Group:     Applications/System
+Group:      Networking/Other
 URL:        https://trac.id.ethz.ch/projects/nagios_plugins/wiki/check_diskio
 Source:     http://www.id.ethz.ch/people/allid_list/corti/%{upstream_name}-%{version}.tar.gz
 BuildArch: noarch
