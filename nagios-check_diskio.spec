@@ -1,5 +1,5 @@
 %define version 3.0.3
-%define release %mkrel 1
+%define release %mkrel 2
 %define upstream_name   check_diskio
 %define name            nagios-%{upstream_name}
 
@@ -36,7 +36,7 @@ perl -pi -e 's|^#!perl|#!%{_bindir}/perl|' \
 install -m 755 -d %{buildroot}%{_sysconfdir}/nagios/plugins.d
 cat > %{buildroot}%{_sysconfdir}/nagios/plugins.d/check_diskio.cfg <<'EOF'
 define command {
-	command_name    check_connections
+	command_name    check_diskio
 	command_line    %{_datadir}/nagios/plugins/check_diskio
 }
 EOF
