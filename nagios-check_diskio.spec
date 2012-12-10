@@ -51,3 +51,17 @@ rm -rf %{buildroot}
 %{_mandir}/man1/check_diskio.1*
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_diskio.cfg
 
+
+
+%changelog
+* Wed Nov 17 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0.3-2mdv2011.0
++ Revision: 598418
+- duh!
+
+* Tue Jun 09 2009 Guillaume Rousse <guillomovitch@mandriva.org> 3.0.3-1mdv2010.0
++ Revision: 384533
+- import nagios-check_diskio
+
+
+* Tue Jun 09 2009 Guillaume Rousse <guillomovitch@mandriva.org> 3.0.3-1mdv2010.0
+- first mdv package
