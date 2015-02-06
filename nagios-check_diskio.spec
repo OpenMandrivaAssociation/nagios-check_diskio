@@ -1,5 +1,5 @@
 %define version 3.0.3
-%define release %mkrel 2
+%define release 3
 %define upstream_name   check_diskio
 %define name            nagios-%{upstream_name}
 
